@@ -4,15 +4,17 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
 }
+
 .body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 1.7px;
-  letter-spacing: 0.03;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -76,31 +78,29 @@
   background-color: var(--secondary-background-color);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--hero-text-color);
 
-  font-family: Roboto, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   text-align: center;
 }
 
 .button {
-  color: #ffffff;
+  color: var(--hero-text-color);
   background-color: var(--accent-color);
 
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
   align-items: center;
 }
 
 /* Уникальный контент */
 .section-title {
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -109,51 +109,57 @@
 .title {
   color: var(--secondary-text-color);
 
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.title-team {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 /* Свойство text применен к страницам Студио и Портфолио */
 .text {
   color: var(--primary-text-color);
 
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7px;
-  letter-spacing: 0.03;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Страница Портфолио */
 
 .filtr .button {
   color: var(--secondary-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--hero-text-color);
 
   font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 
 .filtr .button:hover,
 .filtr .button:focus {
-  color: #ffffff;
+  color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
 
 .title-list {
   color: var(--secondary-text-color);
 
-  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06;
+  letter-spacing: 0.06em;
 }
 
 /* Футер */
@@ -162,18 +168,21 @@
 }
 
 .footer-section .logo {
-  color: #ffffff;
+  color: var(--hero-text-color);
 }
 
 .address-text,
 .footer-contacts {
-  color: #ffffff;
+  color: var(--hero-text-color);
 
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7px;
-  letter-spacing: 0.03;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .footer-contacts {
