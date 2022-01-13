@@ -7,7 +7,7 @@
   --hero-text-color: #ffffff;
 }
 
-.body {
+body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 
@@ -30,7 +30,6 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -101,6 +100,8 @@
 
 /* Уникальный контент */
 .section-title {
+  color: var(--secondary-text-color);
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -112,7 +113,6 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -120,18 +120,13 @@
   color: var(--secondary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
 
 /* Свойство text применен к страницам Студио и Портфолио */
 .text {
   color: var(--primary-text-color);
-
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 /* Страница Портфолио */
